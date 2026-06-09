@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio Pribadi — Mahasiswa Informatika" />
+  <title>Muna Aufa Nadjla | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Portfolio<span>.</span></a>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" title="Toggle Theme">☀</button>
+        <button class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Drawer -->
+  <div class="nav-drawer">
+    <ul>
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#about">Tentang Saya</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO / BERANDA -->
+  <section id="hero">
+    <div class="hero-inner">
+      <!-- Content Left -->
+      <div class="hero-content">
+        
+
+        <h1 class="hero-name">
+          Halo, saya<br>
+          <span class="accent">Muna Aufa Nadjla</span>
+        </h1>
+
+        <p class="hero-tagline">
+          <span id="typed-tagline">Mahasiswa Informatika</span>
+          <span style="color:var(--accent);animation:pulse-dot 1s infinite;display:inline-block;margin-left:2px">|</span>
+        </p>
+
+        <p class="hero-desc">
+          Mahasiswa Informatika yang bersemangat dalam membangun
+          solusi digital yang bermanfaat. Saya suka belajar teknologi baru
+          dan mengerjakan proyek yang bermakna.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">
+             Lihat Portfolio
+          </a>
+          <a href="#contact" class="btn btn-outline">
+             Hubungi Saya
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Proyek Selesai</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">2</span>
+            <span class="stat-label">Tahun Belajar</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Teknologi</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Visual Right -->
+      <div class="hero-visual">
+        <div class="hero-photo-wrap">
+          <img src="assets/image.jpg" alt="" class="hero-photo" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT / TENTANG SAYA -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-label">Tentang Saya</span>
+        <h2 class="section-title">Kenali Saya<br>Lebih <em>Dekat</em></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Text -->
+        <div class="about-text fade-up">
+          <p>
+            Saya adalah mahasiswa Informatika semester 4 yang memiliki
+            ketertarikan besar di bidang pengembangan web dan desain antarmuka.
+            Setiap baris kode yang saya tulis adalah langkah menuju solusi yang
+            lebih baik.
+          </p>
+          <p>
+            Di luar perkuliahan, saya aktif mengerjakan proyek pribadi dan Saya 
+            percaya bahwa belajar yang baik adalah belajar sambil membangun.
+          </p>
+          <p>
+            Saya terus mengembangkan diri, khususnya dalam HTML/CSS, JavaScript,
+            dan konsep UI/UX yang berpusat pada pengguna.
+          </p>
+
+          <!-- Pendidikan -->
+          <div class="education-list" style="margin-top:2.5rem">
+            <p style="font-size:0.7rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);font-family:var(--font-mono);margin-bottom:0.5rem">// Latar Belakang Pendidikan</p>
+
+            <div class="edu-item fade-up">
+              <div class="edu-icon"> → </div>
+              <div class="edu-info">
+                <h4>Mahasiswa Informatika</h4>
+                <p>Universitas Samudra</p>
+                <span>2024 – Sekarang · Semester 4</span>
+              </div>
+            </div>
+
+            <div class="edu-item fade-up">
+              <div class="edu-icon"> → </div>
+              <div class="edu-info">
+                <h4>SMA Negeri 2 Langsa</h4>
+                <p>Jurusan IPA</p>
+                <span>2020 – 2023</span>
+              </div>
+            </div>
+
+            <div class="edu-item fade-up">
+              <div class="edu-icon"> → </div>
+              <div class="edu-info">
+                <h4>MTSN 1 Langsa</h4>
+                <p></p>
+                <span>2017 – 2019</span>
+              </div>
+            </div>
+
+            <div class="edu-item fade-up">
+              <div class="edu-icon"> → </div>
+              <div class="edu-info">
+                <h4>MIN 1 Langsa</h4>
+                <p></p>
+                <span>2011 - 2016</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Sidebar Cards -->
+        <div class="about-sidebar fade-up">
+          <div class="info-card">
+            <h3>Minat & Bidang</h3>
+            <div class="interest-tags">
+              <span class="tag">Web Development</span>
+              <span class="tag">UI/UX Design</span>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Tujuan Karier</h3>
+            <div class="career-goal">
+              Menjadi <strong>Full-Stack Web Developer</strong> yang mampu
+              membangun produk digital dari nol hingga siap pakai, dan
+              berkontribusi pada teknologi yang berdampak positif bagi masyarakat.
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3>Info Singkat</h3>
+            <div style="display:flex;flex-direction:column;gap:0.6rem">
+              <div style="display:flex;justify-content:space-between;font-size:0.85rem">
+                <span style="color:var(--text-muted)">Lokasi</span>
+                <span style="color:var(--text-secondary)">Langsa, Indonesia</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:0.85rem">
+                <span style="color:var(--text-muted)">Status</span>
+                <span style="color:var(--accent)">Mahasiswa Aktif</span>
+              </div>
+              <div style="display:flex;justify-content:space-between;font-size:0.85rem">
+                <span style="color:var(--text-muted)">Bahasa</span>
+                <span style="color:var(--text-secondary)">Indonesia, English</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS / KETERAMPILAN -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-label">Keterampilan</span>
+        <h2 class="section-title">Hard Skills &<br><em>Soft Skills</em></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-layout">
+        <!-- Hard Skills -->
+        <div class="skills-group fade-up">
+          <h3><span class="icon"></span> Hard Skills (Teknis)</h3>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">HTML5 / CSS3</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">JavaScript</span>
+              <span class="skill-pct">67%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="67"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Python</span>
+              <span class="skill-pct">55%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="55"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">MySQL / Database</span>
+              <span class="skill-pct">50%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Figma / UI Design</span>
+              <span class="skill-pct">48%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="48"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-header">
+              <span class="skill-name">Git & GitHub</span>
+              <span class="skill-pct">20%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-fill" data-width="20"></div></div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-group fade-up">
+          <h3><span class="icon"></span> Soft Skills</h3>
+
+          <div class="soft-skills-grid">
+            <div class="soft-skill-item">
+              <span class="icon"></span>
+              <span>Kerja Tim</span>
+            </div>
+            <div class="soft-skill-item">
+              <span class="icon"></span>
+              <span>Problem Solving</span>
+            </div>
+            <div class="soft-skill-item">
+              <span class="icon"></span>
+              <span>Komunikasi</span>
+            </div>
+            <div class="soft-skill-item">
+              <span class="icon"></span>
+              <span>Manajemen Waktu</span>
+            </div>
+          </div>
+        </div>
+
+          <!-- Tools -->
+          <div style="margin-top:2.5rem">
+            <p style="font-size:0.7rem;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--accent);font-family:var(--font-mono);margin-bottom:1rem">// Tools & Platform</p>
+            <div class="interest-tags">
+              <span class="tag">VS Code</span>
+              <span class="tag">Kiro</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">Figma</span>
+              <span class="tag">Canva</span>
+              <span class="tag">XAMPP</span>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO / PROYEK -->
+  <section id="portfolio">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-label">Portfolio</span>
+        <h2 class="section-title">Proyek &<br><em>Karya</em></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="portfolio-filter fade-up">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="Tim">Tim</button>
+        <button class="filter-btn" data-filter="Personal">Personal</button>
+      </div>
+
+      <!-- Project Grid -->
+      <div class="portfolio-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card fade-up" data-category="Personal">
+          <div class="project-thumb"><img src="assets/image1.jpg" alt="" class="hero-photo" /></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+            </div>
+            <h3 class="project-title">Website Wisata Papua Barat</h3>
+            <p class="project-desc">
+              Website ini dibuat sebagai media digital untuk mempromosikan 
+              potensi pariwisata Papua Barat melalui penyajian informasi 
+              yang menarik dan terstruktur. Pengguna dapat menemukan berbagai 
+              kategori wisata, mulai dari wisata alam, wisata budaya, wisata sejarah, 
+              hingga wisata kuliner yang menjadi daya tarik khas daerah Papua Barat.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card fade-up" data-category="Personal">
+          <div class="project-thumb"><img src="assets/image2.jpg" alt="" class="hero-photo" /></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h3 class="project-title">Life Dashboard</h3>
+            <p class="project-desc">
+              Aplikasi berbasis web yang dirancang untuk membantu
+              pengguna meningkatkan produktivitas sehari-hari. 
+              Aplikasi ini menggabungkan berbagai fitur penting
+              seperti timer fokus, to-do list, dan quick links 
+              dalam satu dashboard yang sederhana dan mudah digunakan.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card fade-up" data-category="Personal">
+          <div class="project-thumb"><img src="assets/image3.jpg" alt="" class="hero-photo" /></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h3 class="project-title">Expense & Budget Visualizer</h3>
+            <p class="project-desc">
+              Aplikasi berbasis web pencatatan keuangan yang membantu pengguna 
+              mengelola pemasukan dan pengeluaran secara lebih terstruktur. 
+              Aplikasi ini dilengkapi dengan visualisasi data sehingga pengguna 
+              dapat memantau kondisi keuangan dan kebiasaan pengeluaran dengan lebih mudah.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card fade-up" data-category="Personal">
+          <div class="project-thumb"><img src="assets/image4.jpg" alt="" class="hero-photo" /></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h3 class="project-title">Portofolio</h3>
+            <p class="project-desc">
+              Website portofolio pribadi yang dirancang untuk menampilkan profil, 
+              keterampilan, pengalaman, dan proyek yang pernah saya kerjakan. 
+              Website ini memiliki tampilan modern, responsif, serta navigasi 
+              yang mudah digunakan sehingga pengunjung dapat mengenal saya secara profesional.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card fade-up" data-category="Tim">
+          <div class="project-thumb"><img src="assets/image5.jpg" alt="" class="hero-photo" /></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+            <h3 class="project-title">Website RentCar</h3>
+            <p class="project-desc">
+              website layanan rental mobil yang dirancang untuk mempermudah pelanggan
+              dalam mencari informasi kendaraan dan melakukan pemesanan secara online. 
+              Website ini menampilkan berbagai layanan rental dengan desain yang modern 
+              dan fokus pada pengalaman pengguna.
+            </p>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card fade-up" data-category="Personal">
+          <div class="project-thumb"><img src="assets/image6.jpg" alt="" class="hero-photo" /></div>
+          <div class="project-body">
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">API</span>
+              <span class="project-tag">CSS Animations</span>
+            </div>
+            <h3 class="project-title">App Cuaca Real-time</h3>
+            <p class="project-desc">
+              Aplikasi cuaca berbasis web  yang mengambil data real-time dari OpenWeather API.
+              Menampilkan suhu, kelembaban, kecepatan angin, dan prakiraan
+              7 hari dengan animasi latar sesuai kondisi cuaca.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CV / RIWAYAT -->
+  <section id="cv">
+    <div class="section-inner">
+      <div class="section-header fade-up">
+        <span class="section-label">Curriculum Vitae</span>
+        <h2 class="section-title">Pendidikan &<br><em>Pengalaman</em></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="cv-layout">
+        <!-- Pendidikan -->
+        <div class="cv-column fade-up">
+          <h3>Riwayat Pendidikan</h3>
+          <div class="timeline">
+
+            <div class="timeline-item">
+              <div class="timeline-year">2024 – Sekarang</div>
+              <div class="timeline-title">Mahasiswa Informatika</div>
+              <div class="timeline-sub">Universitas Samudra · Langsa</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year">2020 – 2023</div>
+              <div class="timeline-title">SMA Negeri 2 Langsa</div>
+              <div class="timeline-sub">Jurusan IPA · </div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year">2017 - 2019</div>
+              <div class="timeline-title">MTSN 1 Langsa</div>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-year">2011 - 2016</div>
+              <div class="timeline-title">MIN 1 Langsa</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- CONTACT / KONTAK -->
+<section id="contact">
+  <div class="section-inner">
+    <div class="section-header fade-up">
+      <span class="section-label">contact</span>
+      <h2 class="section-title">Mari <em>Terhubung</em></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info fade-up">
+        <div class="contact-links">
+
+          <a href="mailto:munaaufan@gmail.com" class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="4" width="20" height="16" rx="2"/>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+              </svg>
+            </div>
+            <span class="contact-platform">Email</span>
+            <span class="contact-value">munaaufan@gmail.com</span>
+          </a>
+
+          <a href="https://github.com/munaaufa" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.2c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+                <path d="M9 18c-4.51 2-5-2-7-2"/>
+              </svg>
+            </div>
+            <span class="contact-platform">GitHub</span>
+            <span class="contact-value">github.com/munaaufa</span>
+          </a>
+
+          <a href="https://www.linkedin.com/in/muna-aufa-nadjla-483b8838b/" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                <rect x="2" y="9" width="4" height="12"/>
+                <circle cx="4" cy="4" r="2"/>
+              </svg>
+            </div>
+            <span class="contact-platform">LinkedIn</span>
+            <span class="contact-value">linkedin.com/in/munaaufanadjla</span>
+          </a>
+
+          <a href="https://www.instagram.com/munaandjl_/?hl=en" target="_blank" rel="noopener" class="contact-item">
+            <div class="contact-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </div>
+            <span class="contact-platform">Instagram</span>
+            <span class="contact-value">@munaandjl_</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p class="footer-copy">
+        © <span id="current-year"></span> <strong>Muna Aufa Nadjla</strong>.
+      </p>
+      <div class="footer-links">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>
